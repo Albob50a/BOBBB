@@ -9,7 +9,7 @@ client.on('ready', ()=>{
    console.log(`I'm ready!!`);
    
    // code ::
-   let guild=client.guilds.get('540758186089512963');
+   let guild=client.guilds.get('401044429646987275');
    if(status)
       for(let i=0;i<colors.length;i++) guild.createRole({name:i+1,color:colors[i]});
    else
